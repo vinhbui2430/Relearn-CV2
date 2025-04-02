@@ -4,5 +4,8 @@ This program draws rectangles and circles accordingly to mouse events: Hold left
     + 'ESC': destroy windows
     + 'm': change mode: rectangle -> circle 
     + 'r': clear, and reset window to original image
+    + 's': save annotated image to 'annotatedimg.jpg' 
 - Output: 
-    ![Alt text](image.png)
+    ![Test image 1](image.png)
+
+    ![Test image 2 (save function)](annotatedimg.jpg)
