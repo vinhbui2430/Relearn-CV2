@@ -31,7 +31,7 @@ def draw_circle(event,x,y,flags,param):
         else:
             cv.circle(img,(x,y),5,(0,0,255),-1)
 
-img = cv.imread('rouge.jpg')
+img = cv.imread('cat.png')
 clone = img.copy()
 
 cv.namedWindow('image')
