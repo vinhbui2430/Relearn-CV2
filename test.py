@@ -31,7 +31,7 @@ def draw_circle(event,x,y,flags,param):
         else:
             cv.circle(img,(x,y),5,(0,0,255),-1)
 
-img = cv.imread('cat.png')
+img = cv.imread('longcat.jpg')
 clone = img.copy()
 
 cv.namedWindow('image')
@@ -44,6 +44,8 @@ while(1):
         mode = not mode
     if k == ord('r'):
         img = clone.copy()
+    if k == ord('s'):
+        cv.imwrite('annotatedimg.jpg', img)
     elif k == 27:
         break
  
